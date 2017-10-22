@@ -9,6 +9,9 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 
+# Bootstrap JavaScript depends on jQuery
+gem 'jquery-rails'
+
 # Use bootstrap library for styles
 gem 'bootstrap-sass', '~> 3.3.6'
 
