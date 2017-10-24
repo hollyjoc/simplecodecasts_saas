@@ -6,11 +6,15 @@
 
 body {
 //Gradient from https://uigradients.com/#Celestial
-background: #C33764;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #C33764;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .well {
-background: #C0C0C0FF;  /* fallback for old browsers */
+	background: #C0C0C0FF;  /* fallback for old browsers */
+}
+
+.about {
+	color: white;
 }
