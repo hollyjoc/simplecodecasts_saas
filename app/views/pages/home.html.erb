@@ -8,14 +8,14 @@
 		<div class="well text-center">
 			<h2>Basic Membership</h2>
 			<h4>This is just generic text to fill this space!</h4>
-			<br><%= link_to "Sign up for Free", new_user_registration_path(the_plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block primary' %>
+			<br><%= link_to "Sign up for Free", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block primary' %>
 		</div>
 	</div>
 	<div class = "col-md-6">
 		<div class="well text-center">
 			<h2>Pro Membership</h2>
 			<h4>Eventually this website will be used for something other than learning Web Dev!</h4>
-			<%= link_to "Sign up for Pro", new_user_registration_path(the_plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block success' %>
+			<%= link_to "Sign up for Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block success' %>
 		</div>
 	</div>
 </div>
