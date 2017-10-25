@@ -20,16 +20,10 @@ ActiveRecord::Schema.define(version: 20171025192301) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "plans", force: :cascade do |t|
-    t.string "name"
-    t.decimal "price"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "the_plans", force: :cascade do |t|
-    t.string "user_name"
-    t.decimal "user_price"
+    t.string "plan_name"
+    t.decimal "plan_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
