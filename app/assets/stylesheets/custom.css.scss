@@ -6,9 +6,9 @@
 
 body {
 //Gradient from https://uigradients.com/#Celestial
-	background: #C33764;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #3a6186;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .well {
@@ -26,4 +26,26 @@ background: #CEC8D7;  /* fallback for old browsers */
 .nav_button_spacing {
 	margin-right: 3px;
 }
+
+.primary {
+	border-color: #FFB745;
+	background: #FFB745;
+}
+
+.success {
+	border-color: #FF45A2;
+	background: #FF45A2;
+}
+
+.primary:hover {
+	border-color: #FFB745;
+	background: #FFB745;
+}
+
+.success:hover {
+	border-color: #FF45A2;
+	background: #FF45A2;
+}
+
+
 
