@@ -1,4 +1,4 @@
-class AddPlanToUser < ActiveRecord::Migration[5.1]
+class AddPlanId < ActiveRecord::Migration[5.1]
   def change
   	add_column :users, :plan_id, :integer
   end
