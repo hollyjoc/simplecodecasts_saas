@@ -3,10 +3,8 @@ class ApplicationController < ActionController::Base
 
   before_action :configure_permitted_parameters, if: :devise_controller?
 
-  protected
-  def configure_permitted_parameters
-  	#Devise's way of whitelisting parameters
-  	devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:name, :stripe_card_token, :email, :password,
-  		:password_confirmation)}
-  end
+ protected
+    def configure_permitted_parameters
+      devise_parameter_sanitizer.permit(:sign_up) { |u| u.permit(:name, :stripe_card_token, :email, :password, :password_confirmation) }
+    end
 end
