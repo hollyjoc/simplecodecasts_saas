@@ -1,6 +1,6 @@
 class Users::RegistrationsController < Devise::RegistrationsController
 	def create
-		super do |resource| #Overriding create in RegistrationsController
+		super do |resource|
 			if params[:the_plan]
 				resource.plan.id == params[:the_plan]
 			if resource.plan.id == 2
@@ -11,4 +11,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
 			end
 		end
 	end
-end
+
+		def after_sign_up_path_for(resource)
+			'root'
+		end
+	end
